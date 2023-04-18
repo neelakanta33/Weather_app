@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.weatherApp {
+    background-image: url(p18.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.location h3,
+.location h5 {
+    margin: 0;
+}
+
+.location {
+    text-align: right;
+    padding: 50px 150px 0px 0px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 120px;
+    margin-top: 80px;
+}
+
+.temp_information h2 {
+    font-size: 80px;
+}
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search input {
+    height: 40px;
+    width: 400px;
+}
+
+.search button {
+    padding: 0px 30px;
+    font-size: 20px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+}
